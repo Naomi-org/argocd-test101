@@ -4,7 +4,7 @@ metadata:
   name: my-app-argo-application
   namespace: production
 spec:
-  project: deployment
+  project: default
 
   source:
     repoURL: https://github.com/Naomi-org/argocd-test101.git
