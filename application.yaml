@@ -4,7 +4,7 @@ metadata:
   name: spring-argo-application
   namespace: production
 spec:
-  project: default
+  project: deployment
 
   source:
     repoURL: https://github.com/Naomi-org/argocd-test101.git
