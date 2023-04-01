@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fintect
+  namespace: prod
+spec:
+  selector:
+    matchLabels:
+      app: spring
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: spring
+    spec:
+      containers:
+      - name: spring
+        image: mylandmarktech/spring-boot-mongo:latest
+        ports:
+        - containerPort: 8080
