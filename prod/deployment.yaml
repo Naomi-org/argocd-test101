@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: spring
-  replicas: 2
+  replicas: 7
   template:
     metadata:
       labels:
