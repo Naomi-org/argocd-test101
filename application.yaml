@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: spring-argo
+  name: my-app-argo-application
   namespace: production
 spec:
   project: deployment
